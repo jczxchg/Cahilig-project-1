@@ -34,21 +34,46 @@ html {
 }
 
 .skill-card {
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease, color 0.25s ease;
 }
 
 .skill-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+    background-color: #2b2c2d;
+    color: #ffffff;
+}
+
+
+.skill-card:hover small {
+    color: #ffffff !important;
+    transition: color 0.25s ease;
 }
 
 .project-card {
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease, color 0.25s ease;
 }
 
 .project-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+    background-color: #2b2c2d;
+    color: #ffffff;
+}
+
+
+.project-card:hover .card-text,
+.project-card:hover .card-footer {
+    color: #ffffff !important;
+    background-color: #2b2c2d !important;
+    transition: color 0.25s ease, background-color 0.25s ease;
+}
+
+
+.project-card:hover .btn-primary {
+    background-color: #ffffff;
+    color: #2b2c2d;
+    border-color: #ffffff;
 }
 
 .project-card img {
