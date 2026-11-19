@@ -3,8 +3,10 @@ html {
 }
 
 .hero-section {
-    padding: 100px 0 80px;
-    background-color: #f8f9fa;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../assets/img/bghero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .profile-img {
